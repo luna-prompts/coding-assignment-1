@@ -7,7 +7,7 @@ from openai import OpenAI
 from typing import List
 
 client = OpenAI(
-    api_key="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")
+    api_key="")
 
 
 _POSITIVE = {"love", "great", "good", "awesome", "fantastic", "amazing", "happy"}
