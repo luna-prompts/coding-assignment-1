@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.startupEditor": "readme",
+    "workbench.editor.restoreViewState": false
+  }
+}
