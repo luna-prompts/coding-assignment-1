@@ -5,8 +5,11 @@ Gen-AI Mini-Challenge -- SOLUTION (OpenAI New SDK style)
 import os
 from openai import OpenAI
 from typing import List
+from dotenv import load_dotenv
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+load_dotenv()
+
+client = OpenAI()
 
 _POSITIVE = {"love", "great", "good", "awesome", "fantastic", "amazing", "happy"}
 _NEGATIVE = {"hate", "bad", "terrible", "awful", "horrible", "sad", "angry"}
