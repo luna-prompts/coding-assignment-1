@@ -6,8 +6,7 @@ import os
 from openai import OpenAI
 from typing import List
 
-client = OpenAI(api_key="")
-
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 _POSITIVE = {"love", "great", "good", "awesome", "fantastic", "amazing", "happy"}
 _NEGATIVE = {"hate", "bad", "terrible", "awful", "horrible", "sad", "angry"}
